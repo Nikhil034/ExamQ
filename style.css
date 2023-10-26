@@ -1,3 +1,101 @@
-body{
-    background-color: rebeccapurple;
+
+        /* Header styles */
+header
+ {
+            background-color: #3498db;
+            color: #fff;
+            display: flex; /* Use flexbox to align items */
+            justify-content: space-between; /* Space items evenly */
+            align-items: center; /* Center items vertically */
+            padding: 20px;
+ }
+        /* Footer styles */
+footer 
+{
+            background-color: #2ecc71;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+}
+        /* Navigation menu styles */
+nav 
+{
+            background-color: #3498db;
+            text-align: right;
+}
+nav ul 
+{
+            list-style-type: none;
+            padding: 0;
+}
+nav li
+{
+            display: inline;
+            margin-left: 20px;
+}
+nav a 
+{
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+}
+        /* Logo styles */
+.logo
+{
+            margin-right: 20px; /* Add margin to separate the logo and menu items */
+}
+          /* Container styles */
+  .container
+{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 7px;
+}
+
+        /* Form styles */
+.form-container
+ {
+            flex: 1;
+            padding: 2px;
+            /* background-color: #f0f0f0; */
+ }
+
+.form 
+{
+            max-width: 300px;
+            margin: 0 auto;
+}
+
+.form label 
+{
+            display: block;
+            margin-bottom: 10px;
+}
+
+.form input
+ {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+ }
+
+.form button
+{
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+}
+
+        /* Animation styles */
+.animation-container 
+{
+            flex: 1;
+            /* background-color: #e0e0e0; */
+            padding: 10px;
 }
