@@ -1,22 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>ExamQ-HomePage</title>
 </head>
 <body>
-    <ul>
-        <li>Create layout</li>
-        <li>Color Combination (Not need accurate)</li>
-        <li>Header and footer</li>
-        <li>Create form Full Name,Email,ExamId,CandidateId</li>
-        <li>Start Test button pop up instruction</li>
-    </ul>
+    <header>
+        <div class="logo">
+            <img src="ExamQ_logo.png" alt="Your Logo" width="200" height="40"> <!-- Replace with your logo image source -->
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="form-container">
+            <div class="form">
+                <h2>Require Details</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="candidate-id">Exam ID:</label>
+                    <input type="text" id="candidate-id" name="candidate-id" required>
+                    
+                    <label for="candidate-id">Candidate ID:</label>
+                    <input type="text" id="candidate-id" name="candidate-id" required>
+                    
+                    <button type="submit">Start Test</button>
+                </form>
+            </div>
+        </div>
+        <div class="animation-container">
+            <img src="home.jpg" alt="Your Logo" width="700" height="400">
+        </div>
+    </div>
+ 
+    <footer>
+        &copy; <script>
+                let dt=new Date(); 
+                document.write(`${dt.getFullYear()} All the right are reserved by ExamQ`);
+               </script> 
+    </footer>
 </body>
-
-<script type="javascript" src="script.js"></script>
-
+<script src="script.js"></script>
 </html>
